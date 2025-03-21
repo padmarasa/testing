@@ -61,13 +61,7 @@ try {
             var a_basfId = "unknown basf id";
             var a_accountId = "unknown account id";
             var a_accountType = "unknown account type";
-            var a_customerIndustry = "unknown customer industry";
-
-            document.querySelectorAll(".eupf-tools-content-repeat").forEach((element) =>{
-let toolTile = element.querySelector(".tooltitle").innerHTML; let tileUrl = element.querySelector(".gonow-link").getAttribute("data-href");
-element.querySelector(".gonow-link").setAttribute("data-tealium-value",toolTile +" || " +tileUrl);
-});
-            
+            var a_customerIndustry = "unknown customer industry";           
             if (typeof (partnerApp) != "undefined" && (partnerApp) !== null) {
                 if (typeof (partnerApp.loginToken) != "undefined" && (partnerApp.loginToken) !== null) {
                     if (typeof (partnerApp.loginToken.accounts) != "undefined" && (partnerApp.loginToken.accounts) !== null) {
