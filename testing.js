@@ -1307,7 +1307,7 @@ if (!utag_condload) {
                     console.log("a_ddArray Length: " + a_ddArray.length);
                     a_ddArray.forEach(a_createAnalyticsDataAttribrutes);
                 }
-if(document.querySelectorAll(".eupf-tools-content-repeat").lenght !== 0)
+if(document.querySelectorAll(".eupf-tools-content-repeat").lenght !== 0){
                            document.querySelectorAll(".eupf-tools-content-repeat").forEach((element) =>{
 let toolTile = element.querySelector(".tooltitle")?.innerHTML; let tileUrl = element.querySelector(".gonow-link")?.getAttribute("data-href");
 element.querySelector(".gonow-link").setAttribute("data-tealium-value",toolTile +" || " +tileUrl);
